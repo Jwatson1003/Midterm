@@ -1,0 +1,417 @@
+/* The side navigation menu */
+.sidenav, .sidenavB {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: .5s;
+
+}
+
+.sidenavB {
+  background-color: black;
+}
+
+/* The navigation menu links */
+.sidenav a, .sidenavB a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenavB a{
+  color: white;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: grey;
+}
+
+.sidenavB a:hover {
+  color: white;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn{
+  color: black;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidenavB .closebtn
+{
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+html, body{
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-color: black;
+  background-position: center;
+  font-weight: 200;
+}
+
+.content2 h5 {
+  text-align: left;
+  font-size: 2vw;
+}
+
+.content2 h4 {
+  font-size: 6vw;
+  padding: 0px;
+
+}
+
+.box a {
+  text-decoration: none;
+  text-align: left;
+}
+
+.boxs, .Bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  background: flex;
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 calc(20% - .4em);
+  border: 2px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+p7, p8 {
+  font-size: 7vw;
+  font-weight: bold;
+}
+p8,p10 {
+  text-decoration: underline;
+}
+p9, p10 {
+  font-size: 5vw;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 5vw;
+  font-weight: 200px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 7vw;
+  text-align: right;
+}
+
+.borderContainer {
+  display: flex;
+}
+.thickTopBorder {
+  border-top: 5px solid white;
+  width: 50%;
+}
+.thinTopBorder {
+  border-top, border-bottom: 2px solid white;
+  width: 50%;
+}
+
+.mainBody {
+  background: black;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+p6 {
+  letter-spacing: 7px;
+  font-weight: 600;
+  font-size: 4vw;
+}
+
+p4 {
+  font-size: 2vw;
+  font-style: italic;
+}
+
+.BigNumber{
+  display: flex;
+  text-align: center;
+  font-size: 80vw;
+  line-height:80%;
+  font-weight: 600;
+}
+
+.Bottom{
+  text-decoration: none;
+  font-size: 2vw;
+}
+
+.BottomContent {
+  background: flex;
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 calc(33% - .5em);
+
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  z-index: -4;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 20%;
+}
+
+p1 {
+  font-weight: 200;
+  font-size: 2vw;
+  display: block;
+  font-size:
+  margin: 100px;
+}
+
+.video {
+  width=33%;
+  display: flex;
+  justify-content: center;
+}
+
+.pic {
+  height:100%;
+  width:50%;
+}
+
+.mainContent2 {
+  background-color: rgb(229, 229, 229);
+}
+
+.Letters {
+  text-align: center;
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+  font-weight: 400;
+  font-size:8vw;
+  line-height: 1em;
+  letter-spacing: .1px;
+}
+
+.W {
+  color:white;
+  z-index: 7;
+  position: absolute;
+  top: 1px;
+  left: 500px;
+
+}
+.PL{
+  color: rgb(199, 36, 177);
+  z-index: 6;
+  position: absolute;
+  top:1px;
+  left: 510px;
+  opacity: .7;
+}
+.PR{
+  color: rgb(199, 36, 177);
+  z-index: 5;
+  position: absolute;
+  top:1px;
+  left: 490px;
+  opacity: .7;
+
+}
+.BL{
+  color: rgb(21, 224, 238);
+  left: 40px;
+  z-index: 4;
+  position: absolute;
+  top:1px;
+  left: 520px;
+  opacity: .7;
+}
+.BR{
+  color: rgb(21, 224, 238);
+  z-index: 3;
+  position: absolute;
+  top:1px;
+  left: 480px;
+  opacity: .7;
+}
+.YL{
+  color: rgb(250, 237, 39);
+  z-index: 2;
+  position: absolute;
+  top:1px;
+  left: 530px;
+  opacity: .7;
+}
+.YR{
+  color: rgb(250, 237, 39);
+  z-index: 1;
+  position: absolute;
+  top:1px;
+  left: 470px;
+  opacity: .7;
+}
+
+p11{
+  text-align: left;
+  color:white;
+  font-weight: 200;
+  font-size: 1em;
+}
+
+.Content h5, .Content h6, .Content h10 {
+  font-size: 1.5vw;
+  text-align: left;
+}
+
+.Content h5 {
+  letter-spacing: .2em;
+}
+.Content h6 {
+  letter-spacing: .64em;
+}
+.Content h10 {
+  letter-spacing: .88em;
+}
+
+h5,h6,h10,h11 {
+color:white;
+font-weight: 400;
+}
+
+h11{
+  display: block;
+  margin-right: 20em;
+  font-size: 1vw;
+  text-align: right;
+}
+
+.Content {
+  display: block;
+  text-align: inherit;
+  position: relative;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  border-bottom: 5px solid white;
+  border-top: 5px solid white;
+}
+
+.W2{
+  color:white;
+  z-index: 7;
+  position: absolute;
+  top: 770px;
+  left: 500px;
+
+}
+.PL2{
+  color: rgb(199, 36, 177);
+  z-index: 6;
+  position: absolute;
+  top:770px;
+  left: 510px;
+  opacity: .7;
+}
+.PR2{
+  color: rgb(199, 36, 177);
+  z-index: 5;
+  position: absolute;
+  top:770px;
+  left: 490px;
+  opacity: .7;
+
+}
+.BL2{
+  color: rgb(21, 224, 238);
+  left: 40px;
+  z-index: 4;
+  position: absolute;
+  top:770px;
+  left: 520px;
+  opacity: .7;
+}
+.BR2{
+  color: rgb(21, 224, 238);
+  z-index: 3;
+  position: absolute;
+  top:770px;
+  left: 480px;
+  opacity: .7;
+}
+.YL2{
+  color: rgb(250, 237, 39);
+  z-index: 2;
+  position: absolute;
+  top:770px;
+  left: 530px;
+  opacity: .7;
+}
+.YR2{
+  color: rgb(250, 237, 39);
+  z-index: 1;
+  position: absolute;
+  top:770px;
+  left: 470px;
+  opacity: .7;
+}
+
+.information {
+  color: black;
+}
+
+p20 {
+  font-size: 1vw;
+}
+
+.overall {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  text-align: center;
+}
